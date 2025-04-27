@@ -8,9 +8,10 @@ This project contains **automated Playwright smoke tests** for validating key fu
 ```
 NavigatorTests/
 │
-├── navigator-smoke.spec.js    # Main Playwright test file
-├── README.md                  # Project documentation
-└── package.json               # Node.js dependencies and scripts
+├── navigator-smoke.spec.js            # Main Playwright test file
+├── README.md                          # Project documentation
+└── package.json                       # Node.js dependencies and scripts
+└── Navigator_App_Testing_Plan.pdf     # Test case documentation (smoke tests, positive/negative tests, bugs)
 ```
 
 ---
@@ -122,3 +123,17 @@ The smoke tests currently cover:
 - Language switching
 - Mobile responsiveness
 - Browser compatibility
+
+## Additional Documentation
+
+In addition to the automated tests, you can find detailed documentation regarding the **test cases, smoke tests, positive/negative test cases, and reported bugs** in the file:
+
+*   **[Navigator_App_Testing_Plan.pdf](Navigator_App_Testing_Plan.pdf)**
+
+This PDF contains:
+
+*   **Test Cases** for key functionalities of the Navigator app.
+*   **Smoke Tests** that cover the most critical user interactions.
+*   **Positive and Negative Test Cases** 
+*   **Reported Bugs** with detailed steps to reproduce.
+
